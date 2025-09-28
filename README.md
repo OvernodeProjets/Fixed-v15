@@ -4,7 +4,7 @@
 
 # Heliactyl v15 (Legacy)
 
-This release line is no longer supported. Please upgrade to Heliactyl v17.
+This version is just a fixed/updated version of Heliactyl v15. I will maintain it a little longer for those who still need it.
 Launch a free hosting service using Heliactyl as your dashboard.
 Learn how to setup/install it below.
 
@@ -19,7 +19,7 @@ We cannot force you to keep the "Powered by Heliactyl" in the footer, but please
 Warning: You need Pterodactyl already set up on a domain for Heliactyl to work
 
 1. Upload the file above onto a Pterodactyl NodeJS server [Download the egg from Parkervcp's GitHub Repository](https://github.com/parkervcp/eggs/blob/master/generic/nodejs/egg-node-js-generic.json)
-2. Unarchive the file and set the server to use NodeJS 17
+2. Unarchive the file and set the server to use NodeJS 22
 3. Configure webserver.json to use the server's port
 4. Start the server and open the server's IP in your browser and configure the dashboard settings
 5. Login to your DNS manager, point the domain you want your dashboard to be hosted on to your VPS IP address. (Example: dashboard.domain.com 192.168.0.1)
@@ -32,7 +32,7 @@ Warning: You need Pterodactyl already set up on a domain for Heliactyl to work
 
 # One Line Installer:
 ```
-apt update -y && apt install npm nodejs -y && npm i n -g && n stab;e && PATH="$PATH" && git clone https://github.com/BetterHeliactyl/Heliactyl.git && cd Heliactyl && npm i && node .
+apt update -y && apt install npm nodejs -y && npm i n -g && n stab;e && PATH="$PATH" && git clone https://github.com/OvernodeProjets/fixed-heliactyl-v15.git && cd Heliactyl && npm i && node .
 ```
 
 # Nginx Proxy Config

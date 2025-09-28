@@ -1,0 +1,10 @@
+heliactyl.db
+sessions.db
+package-lock.json
+node_modules
+pnpm-lock.yaml
+pnpm-workspace.yaml
+yarn.lock
+bun.lock
+.DS_Store
+bun.lockd
