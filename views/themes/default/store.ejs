@@ -1,25 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= name %> &bullet; Store</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <style>
-        [x-cloak] {
-            display: none !important;
-        }
-    </style>
-</head>
-
-<body class="relative antialiased bg-gray-100">
-    <!-- Start Nav -->
-    <%- include('components/nav.ejs') %>
-    <!-- End Nav -->
+<%- include('components/header', { title: 'Store' }) %>
+    <%- include('components/nav') %>
     <!-- Start Main -->
     <main class="container mx-w-6xl mx-auto py-4">
         <div class="flex flex-col space-y-8">

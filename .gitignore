@@ -8,3 +8,4 @@ yarn.lock
 bun.lock
 .DS_Store
 bun.lockd
+public/tailwind.css
